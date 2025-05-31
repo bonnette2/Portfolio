@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+body {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif !important;
+  position: relative;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.logo {
+  width: 6%;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.white-toggle .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.custom-navbar {
+  background-color: #1E1E1E !important;
+  display: flex;
+}
+
+
+.navbar-brand {
+  color: white !important;
+}
+.nav-links .nav-link {
+  position: relative;
+  color: white;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+  background-color: #1E1E1E !important;
+}
+
+
+.nav-links .nav-link:hover {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 4px;
+  padding: 6px 12px;
+  transition: all 0.3s ease-in-out;
+}
+.nav-links .nav-link.active {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+.home-section {
+ 
+  padding: 10rem 3rem;
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  max-width: 37.5rem;
+}
+
+.intro-text h2 {
+  font-size: 2rem;
+}
+
+
+.intro-text.name {
+  color: #ff4ecb;
+}
+
+
+.intro-text p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  max-width: 90%;
+}
+
+.profile-image-container {
+  flex-direction  : column;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 18.75rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ff4ecb66;
+}
+.profile-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.icon-image-wrapper {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-line {
+  width: 60px;
+  height: 2px;
+  background-color: #ff4ecb;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.image-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.icon-img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon-img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+//services
+
+
+//About section styles
+.about-section {
+  padding: 20rem 10rem;
+  background-color: #1E1E1E !important;
+  color: white;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center; 
+  gap: 2rem; 
+}
+
+.picture img {
+  justify-content: center;
+  padding: 2rem;
+  flex: 1; 
+  max-width: 31.25rem; 
+  border-radius: 40px;
+  border: 4px solid black; 
+}
+.icon-line {
+  width: 50px;
+  height: 2px;
+  background-color: #ff4ecb;
+  border: none;
+  margin: 0;
+}
+
+
+.about-text {
+  flex: 2; 
+  max-width: 37.5rem; 
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+//services
+.services-section {
+  padding: 40rem 40rem;
+  background-color: #000; /* match your theme */
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.service-card {
+  flex-direction:column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px #ff4ecb33;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #ff4ecb66;
+}
+
+.service-card h3 {
+  color: #ff4ecb;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.service-card img {
+  width: 50%;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+  margin-bottom: 1rem;
+}
+.my-carousel{
+  margin-top: 5rem;
+}
+.footer-section {
+  background-color:rgb(10, 10, 10) !important;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.fade-in,.typewriter {
+  opacity: 0;
+}
+
+.fade-in.hello {
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+/* Name typewriter starts at 2.5s, ends around 5.5s */
+.typewriter {
+  font-size: 2.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #ff4ecb;
+  width: 0;
+  animation: typing 3s steps(30, end) forwards 2.5s, blink 0.75s step-end infinite 1s;
+  animation-delay: 1s;
+  opacity: 1; 
+}
+
+.fade-in.bio {
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 4.5s;
+}
+.fade-in.button {
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 5.5s;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+  animation-delay: 6s;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 20ch; } /* Adjust based on text length */
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+
+
+
+
+/* 🌐 RESPONSIVE BREAKPOINTS */
+@media (max-width: 768px) {
+  .home-section {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  
+
+  .typewriter {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .intro-text h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .intro-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 40%;
+    margin-top: 1.5rem;
+  }
+ .about-section {
+    flex-direction: column;
+    text-align: center; 
+    padding: 3rem 1rem; 
+  }
+
+  .picture {
+    max-width: 100%; 
+    margin-bottom: 1.5rem; 
+  }
+
+  .about-text {
+    max-width: 100%; 
+  }
+  }
